@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GithubFav</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    />
+
+    <script src="./js/main.js" type="module" defer></script>
+  </head>
+  <body>
+    <div id="content">
+      <header>
+        <h1><img src="./assets/Gitfav.svg" alt="" /></h1>
+        <div class="search">
+          <label for="search input" class="sr-only"
+            >Digite o Usuário do Github</label
+          >
+          <input
+            type="text"
+            placeholder="Digite o Github username aqui"
+            for="input search"
+          />
+          <!-- presta atenaço nesse input-search -->
+          <button class="btnSearch">
+            <div class="starimg"></div>
+            Favoritar
+          </button>
+        </div>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>Usuario</th>
+            <th>Repositorios</th>
+            <th>Followers</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+</html>
